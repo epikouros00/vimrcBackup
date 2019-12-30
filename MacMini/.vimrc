@@ -1,3 +1,25 @@
+set number
+set mouse=a
+set autoindent
+set smartindent
+autocmd FileType c,cpp,java :set cindent
+set cinoptions=g0,t0
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set ignorecase
+set smartcase
+set incsearch
+set hlsearch
+set title
+set ruler
+
+set textwidth=90
+set colorcolumn=+1
+hi ColorColumn ctermbg=235
+
+
+
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
@@ -66,23 +88,4 @@ let g:solarized_contrast="high"
 let g:solarized_visibility="normal"
 colorscheme solarized
 
-set number
-set mouse=a
-set autoindent
-set smartindent
-autocmd FileType c,cpp,java :set cindent
-set cinoptions=g0,t0
-set tabstop=4
-set shiftwidth=4
-set expandtab
-set ignorecase
-set smartcase
-set incsearch
-set hlsearch
-set title
-set ruler
-
-set textwidth=90
-set colorcolumn=+1
-hi ColorColumn ctermbg=235
 
